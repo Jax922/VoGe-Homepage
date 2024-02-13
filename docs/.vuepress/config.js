@@ -8,10 +8,28 @@ export default defineUserConfig({
     theme: defaultTheme({
         navbar: [
             { text: 'Home', link: '/' },
-            { text: 'VoGe-Portal', link: 'https://github.com/Jax922/VoGe-Portal' },
-            { text: 'VoGe-Display', link: 'https://github.com/Jax922/VoGe-Display' },
-            { text: 'VoGe-NLU', link: 'https://github.com/Jax922/VoGe_NLU'}
+            {
+                text: 'Github',
+                items: [
+                    { text: 'VoGe-Portal', link: 'https://github.com/Jax922/VoGe-Portal' },
+                    { text: 'VoGe-Display', link: 'https://github.com/Jax922/VoGe-Display' },
+                    { text: 'VoGe-NLU', link: 'https://github.com/Jax922/VoGe_NLU'}
+                ]
+            }
         ],
+        sidebar: {
+            '/VoGe-Portal/': [
+                '',
+            ],
+            '/VoGe-Display/': [
+                '',
+                'Gesture Interaction',
+                'Voice Interaction',
+            ],
+            '/VoGe-NLU/': [
+                '',
+            ],
+          }
     }),
     lang: 'en-US',
     title: "VoGe Presentation Docs",
