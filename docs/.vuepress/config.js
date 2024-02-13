@@ -18,17 +18,7 @@ export default defineUserConfig({
             }
         ],
         sidebar: {
-            '/VoGe-Portal/': [
-                '',
-            ],
-            '/VoGe-Display/': [
-                '',
-                'Gesture Interaction',
-                'Voice Interaction',
-            ],
-            '/VoGe-NLU/': [
-                '',
-            ],
+            
         }
     }),
     lang: 'en-US',
