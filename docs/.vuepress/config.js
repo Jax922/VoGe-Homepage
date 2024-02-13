@@ -9,7 +9,7 @@ export default defineUserConfig({
     lang: 'en-US',
     title: "VoGe Presentation",
 //   head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
-    nav: [
+    navbar: [
         { text: 'Home', link: '/' },
         { text: 'VoGe-Portal', link: 'https://github.com/Jax922/VoGe-Portal' },
         { text: 'VoGe-Display', link: 'https://github.com/Jax922/VoGe-Display' },
