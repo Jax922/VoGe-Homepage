@@ -33,6 +33,34 @@ In the presentation, the user can interact with the chart using voice commands. 
 | Split a Data Element    | Separate a data element into parts      | Split, Data Element     | "Split a Data Element"    |
 | Reunite a Data Element  | Combine split parts of a data element   | Reunite, Data Element   | "Reunite a Data Element"  |
 
+* Show X-axis 
+  
+Users can use the voice command "Show X-axis" to display the X-axis on the chart.
+
+```bash
+# Show X-axis Keywords
+"X-axis", "X axis", "horizontal axis", "horizontal"
+```
+
+* Show Y-axis
+
+Users can use the voice command "Show Y-axis" to display the Y-axis on the chart.
+
+```bash
+# Show Y-axis Keywords
+"y axis", "y-axis", "vertical axis", "vertical"
+```
+
+* Show Title
+
+Users can use the voice command to display the title of the chart. The voice should be contain the <font color="red">two keywords</font> of the origin title at least. For example, the title is "Life Expectancy vs. GDP per Capita Worldwide", if the voice contains "Life" and "GDP", the title will be shown.
+
+* Show Year
+
+The Year is shown in the 4th position of above example figure. Users can use the voice command should contain the first year of the timeline. For example, "Show the year of 1800".  
+
+> Regarding the `Title` and `Year`, if users forget to show them by voice command, the chart will show the `Title` and `Year` automatically when the chart is playing.
+
 * Show Data Elements
   
 Users can use the data group name or the color of the data group to show the data elements step by step. For example, "Bule is the Asia". The chart will show the data elements of Asia. Users can also use the data group name to show the data elements. For example, "Show the data elements of Asia". It is also supported to show the data elements of multiple data groups. For example, "Show the data elements of Asia and Europe".
@@ -106,8 +134,3 @@ After splitting a data element, users can use the voice command "Reunite" to reu
 "reunite", "reunion", "Merge", "Reunite the data element of",
 "Combine the data element of", "Merge the data element of"
 ```
-
-
-
-
-
