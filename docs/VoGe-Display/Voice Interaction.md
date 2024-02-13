@@ -3,7 +3,7 @@
 ## Line Chart
 ![alt text](line.png)
 
-## Animatated Bubble Chart
+## Animated Bubble Chart
 
 The animated bubble chart is a chart that shows the change of data over time. It is a scatter plot with the size of the bubbles representing a
  propetry of the data(eg: population, GDP, etc.). The chart is animated to show the change of the data over time. The chart is interactive and the user can control the animation, highlight data elements, and split and reunite data elements, etc.
