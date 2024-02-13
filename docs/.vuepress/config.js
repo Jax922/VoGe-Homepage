@@ -16,10 +16,7 @@ export default defineUserConfig({
                     { text: 'VoGe-NLU', link: 'https://github.com/Jax922/VoGe_NLU'}
                 ]
             }
-        ],
-        sidebar: {
-            
-        }
+        ]
     }),
     lang: 'en-US',
     title: "VoGe Presentation Docs",
