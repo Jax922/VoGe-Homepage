@@ -16,7 +16,28 @@ export default defineUserConfig({
                     { text: 'VoGe-NLU', link: 'https://github.com/Jax922/VoGe_NLU'}
                 ]
             }
-        ]
+        ],
+        sidebar: [
+            {
+                text: "VoGe-Portal",
+            },
+            {
+                text: "VoGe-Display",
+                children: [
+                    {
+                        text: "Gesture Interaction",
+                        link: '/VoGe-Display/Gesture Interaction.md'
+                    },
+                    {
+                        text: "Voice Interaction",
+                        link: '/VoGe-Display/Voice Interaction.md'
+                    }
+                ]
+            },
+            {
+                text: "VoGe-NLU",
+            }
+        ],
     }),
     lang: 'en-US',
     title: "VoGe Presentation Docs",
