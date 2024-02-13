@@ -1,5 +1,8 @@
 ## Bar Chart
+![alt text](bar.png)
 ## Line Chart
+![alt text](line.png)
+
 ## Animatated Bubble Chart
 
 The animated bubble chart is a chart that shows the change of data over time. It is a scatter plot with the size of the bubbles representing a
