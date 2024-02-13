@@ -25,12 +25,12 @@ export default defineUserConfig({
                 text: "VoGe-Display",
                 children: [
                     {
-                        text: "Gesture Interaction",
-                        link: '/VoGe-Display/Gesture Interaction.md'
-                    },
-                    {
                         text: "Voice Interaction",
                         link: '/VoGe-Display/Voice Interaction.md'
+                    },
+                    {
+                        text: "Gesture Interaction",
+                        link: '/VoGe-Display/Gesture Interaction.md'
                     }
                 ]
             },
