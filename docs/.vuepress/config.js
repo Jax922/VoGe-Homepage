@@ -29,7 +29,7 @@ export default defineUserConfig({
             '/VoGe-NLU/': [
                 '',
             ],
-          }
+        }
     }),
     lang: 'en-US',
     title: "VoGe Presentation Docs",

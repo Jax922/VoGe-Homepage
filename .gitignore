@@ -5,4 +5,10 @@
 # VuePress default build output directory
 .vuepress/dist
 
-./node_modules/*
+node_modules
+dist
+.vscode
+.temp
+.cache
+
+docs/.vuepress/.temp
