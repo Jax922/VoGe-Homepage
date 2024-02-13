@@ -10,7 +10,7 @@ export default defineUserConfig({
             { text: 'Home', link: '/' },
             {
                 text: 'Github',
-                items: [
+                children: [
                     { text: 'VoGe-Portal', link: 'https://github.com/Jax922/VoGe-Portal' },
                     { text: 'VoGe-Display', link: 'https://github.com/Jax922/VoGe-Display' },
                     { text: 'VoGe-NLU', link: 'https://github.com/Jax922/VoGe_NLU'}
