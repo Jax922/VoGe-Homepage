@@ -25,6 +25,10 @@ export default defineUserConfig({
                 text: "VoGe-Display",
                 children: [
                     {
+                        text: "Introduction",
+                        link: '/VoGe-Display/README.md'
+                    },
+                    {
                         text: "Voice Interaction",
                         link: '/VoGe-Display/Voice Interaction.md'
                     },
