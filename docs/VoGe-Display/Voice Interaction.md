@@ -1,7 +1,69 @@
 ## Bar Chart
+
+The bar chart is a chart that presents categorical data with rectangular bars with heights proportional to the values that they represent. The chart is interactive and the user can control the chart to show, highlight data elements, and change the chart type to line chart in VoGe-Portal. The following is an example of a bar chart:
+
 ![alt text](bar.png)
+
+* Position 1: The X axis
+* Position 2: The Y axis
+* Position 3: The Title
+* Position 4: The Data Elements
+
+In the presentation, the user can interact with the chart using voice commands. The following are the voice commands that can be used to interact with the bar or line chart:
+
+
+| Voice Commands | Description        | Keywords    | Example |
+| -------------- | ------------------ | ----------- | ------- |
+| Show X-Axis    | Display the X-axis on the chart  | Show X-Axis |    "Show X-axis"      |
+| Show Y-axis             | Display the Y-axis on the chart         | Show, Y-axis            | "Show Y-axis"             |
+| Show Data Elements      | Display all data elements on the chart  | -     | -    |
+| Highlight Data Elements | Highlight specific data elements        | - | - |
+
+* Show X-axis
+
+X-axis is the horizontal axis of the chart. Users can choose the showing mode of the X-axis in VoGe-Portal. It supports to show the whole X-axis(X-axis line + ticks) together or show the X-axis line and ticks separately. 
+
+Users can use the keywords or the `X-axis name` to show the X-axis. For example, "Show X-axis" or "Show the Days" in our example.
+
+```bash
+# Show X-axis Keywords
+"X-axis", "X axis", "horizontal axis", "horizontal"
+```
+
+* Show Y-axis
+
+Y-axis is the vertical axis of the chart. Users can choose the showing mode of the Y-axis in VoGe-Portal. It supports to show the whole Y-axis(Y-axis line + ticks) together or show the Y-axis line and ticks separately. <font color="green">We recommend to show the whole Y-axis together in the presentation</font>, because the Y-axis ticks are dynamic and the ticks will be shown in the chart when the data elements are shown. Hence, the Y-axis ticks will be changed automatically when the data elements are shown. 
+
+Users can use the keywords or the `Y-axis name` to show the Y-axis. For example, "Show Y-axis" or "Show the Sales", if "Sales" is the Y-axis name of the chart.
+
+```bash
+# Show Y-axis Keywords
+"y axis", "y-axis", "vertical axis", "vertical"
+```
+
+* Show Data Elements
+
+Users can use the `X-axis tick` name to show the data elements. For example, "Show the data elements of Monday" in our example. It is also supported to show the data elements of multiple X-axis ticks. For example, "Show the data elements of Monday and Tuesday". 
+
+<font color="green">The system will show the data elements to the big index of the X-axis ticks</font>. For example, if the X-axis ticks are "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", the system will show the all data elements when the voice command contains "Sunday".
+
+* Highlight Data Elements
+
+When the data elements are shown, users can use the `X-axis tick` name to highlight the data elements. For example, "Highlight the data elements of Monday" in our example. It is also supported to highlight the data elements of multiple X-axis ticks. For example, "Highlight the data elements of Monday and Tuesday".
+
 ## Line Chart
+
+The line chart is a chart that presents information with a series of data points connected by straight line segments. The chart is interactive and the user can control the chart to show, highlight data elements, and change the chart type to bar chart in VoGe-Portal. The following is an example of a line chart:
+
 ![alt text](line.png)
+
+* Position 1: The X axis
+* Position 2: The Y axis
+* Position 3: The Legend
+* Position 4: The Data Elements of a Legend
+* Position 5: The Data Elements of a Legend
+
+In the presentation, the user can interact with the chart using voice commands same as the bar chart. You can refer to the bar chart for the voice commands.
 
 ## Animated Bubble Chart
 
