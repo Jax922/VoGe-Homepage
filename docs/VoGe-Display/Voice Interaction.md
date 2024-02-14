@@ -1,3 +1,5 @@
+[[toc]]
+
 ## Bar Chart
 
 The bar chart is a chart that presents categorical data with rectangular bars with heights proportional to the values that they represent. The chart is interactive and the user can control the chart to show, highlight data elements, and change the chart type to line chart in VoGe-Portal. The following is an example of a bar chart:
