@@ -13,4 +13,10 @@ Refer to the [Voice Interaction](./Voice%20Interaction.md) and [Gesture Interact
 The above figure the webpage of the `VoGe-Display` application. The webpage is divided into two main sections: the left main content is the data visualization chart and the right sidebar is the control panel. The control panel contains the `Presentation Timeline`, `Debug Information`, and `Record`. The `Presentation Timeline` is used to navigate through the data charts, which can be designed in the `VoGe-Portal`. The `Debug Information` is used to display the gesture and voice information. The `Record` is used to record the presentation, it will generate a video file in you local meachine.
 
 
-## 
+## Presentation Timeline
+
+
+## Debug Information
+
+
+## Record

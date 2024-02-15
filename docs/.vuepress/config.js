@@ -19,6 +19,23 @@ export default defineUserConfig({
         ],
         sidebar: [
             {
+                text: "Getting Started with 5 minutes",
+                children: [
+                    {
+                        text: "Installation",
+                        link: 'gettingstart/Installation.md'
+                    },
+                    {
+                        text: "Create a new slide",
+                        link: 'gettingstart/QuickStart.md'
+                    },
+                    {
+                        text: "Create a new Presentation Video",
+                        link: 'gettingstart/Presentation.md'
+                    }
+                ]
+            },
+            {
                 text: "VoGe-Portal",
             },
             {
