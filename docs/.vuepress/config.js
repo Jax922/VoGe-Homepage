@@ -23,15 +23,15 @@ export default defineUserConfig({
                 children: [
                     {
                         text: "Installation",
-                        link: 'gettingstart/Installation.md'
+                        link: '/gettingstart/Installation.md'
                     },
                     {
                         text: "Create a new slide",
-                        link: 'gettingstart/QuickStart.md'
+                        link: '/gettingstart/QuickStart.md'
                     },
                     {
                         text: "Create a new Presentation Video",
-                        link: 'gettingstart/Presentation.md'
+                        link: '/gettingstart/Presentation.md'
                     }
                 ]
             },

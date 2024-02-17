@@ -34,7 +34,7 @@ There are two instructions to deal with the CORS issue:
 After dealing with the CORS issue, you can start the server by running the following command:
 
 ```bash
-npm start
+npm run start
 ```
 
 ## VoGe-Display
