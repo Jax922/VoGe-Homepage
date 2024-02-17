@@ -26,7 +26,7 @@ export default defineUserConfig({
                         link: '/gettingstart/Installation.md'
                     },
                     {
-                        text: "Create a new slide",
+                        text: "Create a new slides",
                         link: '/gettingstart/QuickStart.md'
                     },
                     {
