@@ -60,7 +60,7 @@ export default defineUserConfig({
             },
             {
                 text: "Datasets",
-                link: "dataset/README.md"
+                link: "/dataset/README.md"
             }
         ],
     }),
