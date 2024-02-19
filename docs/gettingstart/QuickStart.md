@@ -42,3 +42,5 @@ After you have selected a chart type, you can see the web page as follows:
 In this step, you can also design the chart style, such as the color, the size, the title, the axis, and so on in the right side of the web page.
 
 > NB: After you design the chart, you should click the `Save` button to save the chart!!!
+
+7. You can click the `Preview` button to preview the chart.

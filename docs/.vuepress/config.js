@@ -57,6 +57,10 @@ export default defineUserConfig({
             },
             {
                 text: "VoGe-NLU",
+            },
+            {
+                text: "Datasets",
+                link: "dataset/README.md"
             }
         ],
     }),
