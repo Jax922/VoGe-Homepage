@@ -32,7 +32,7 @@
 
 * GDP and the babies per women from 1800 to 2020
 [download dataset](./dist/bubble/gdp_babies.csv)
-<a href="/dataset/dist/bubble/gdp_babies.csv" download>download dataset</a>
+<a href="/data/dist/bubble/gdp_babies.csv" download>download dataset</a>
 
 
 ## Data Source
